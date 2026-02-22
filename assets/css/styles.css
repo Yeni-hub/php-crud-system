@@ -1,0 +1,66 @@
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.25);
+}
+
+/* VALIDACIÓN ERROR */
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    border-color: #000;
+    background-image: none;
+}
+
+.was-validated .form-select:invalid,
+.form-select.is-invalid {
+    border-color: #000;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    border-color: #000;
+    background-image: none;
+}
+
+.was-validated .form-select:valid,
+.form-select.is-valid {
+    border-color: #000;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+
+:root {
+  --bs-primary: #000000;
+  --bs-primary-rgb: 0, 0, 0;
+  --bs-focus-ring-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #000 !important;
+  box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Validación error */
+.was-validated .form-control:invalid,
+.form-control.is-invalid,
+.was-validated .form-select:invalid,
+.form-select.is-invalid {
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
+
+
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated .form-select:valid,
+.form-select.is-valid {
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
